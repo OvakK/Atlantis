@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "bucket" {
   bucket = var.bname
 
   tags = {
-    Name        = "My-atlantis-bucket"
+    Name        = "My-atlantis-bucket1"
     Environment = "Dev"
   }
 }
