@@ -5,7 +5,7 @@ variable "aws_region" {
 }
 
 variable "bname" {
-  description = "S3 bucket name"
+  description = "S3 bucket atlantis"
   type        = string
   default     = "atlantis-learn"
 }
