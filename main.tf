@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "bucket" {
 
   tags = {
     Name        = "My-atlantis-bucket"
-    Environment = "Dev1"
+    Environment = "Dev"
   }
 }
 
